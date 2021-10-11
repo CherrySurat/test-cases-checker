@@ -1,0 +1,3191 @@
+{'_links': {'next': None, 'prev': None},
+ 'cases': [{'created_by': 1,
+            'created_on': 1632797344,
+            'custom_automation_type': 0,
+            'custom_description': None,
+            'custom_expected': 'Tap Try Buy at home landing page is appear in '
+                               'Thai',
+            'custom_preconds': 'User selects country and language as TH-TH',
+            'custom_steps': '1. User choose items \r\n'
+                            "2. Click 'How it works?' button\r\n"
+                            "3. Click 'LEARN MORE' button from pdp bottom "
+                            'sheet\r\n',
+            'custom_steps_separated': None,
+            'display_order': 1,
+            'estimate': None,
+            'estimate_forecast': None,
+            'id': 6,
+            'is_deleted': 0,
+            'milestone_id': None,
+            'priority_id': 2,
+            'refs': 'PRDT-4726',
+            'section_id': 3,
+            'suite_id': 2,
+            'template_id': 1,
+            'title': 'Verify linking to tap.try.buy. landing page in iOS app: '
+                     'TH-TH',
+            'type_id': 7,
+            'updated_by': 1,
+            'updated_on': 1632797478},
+           {'created_by': 1,
+            'created_on': 1632797474,
+            'custom_automation_type': 0,
+            'custom_description': None,
+            'custom_expected': 'Tap Try Buy at home landing page is appear in '
+                               'English\r\n'
+                               '\r\n',
+            'custom_preconds': 'User selects country and language as TH-EN',
+            'custom_steps': '1. User choose items \r\n'
+                            "2. Click 'How it works?' button\r\n"
+                            "3. Click 'LEARN MORE' button from pdp bottom "
+                            'sheet',
+            'custom_steps_separated': None,
+            'display_order': 2,
+            'estimate': None,
+            'estimate_forecast': None,
+            'id': 7,
+            'is_deleted': 0,
+            'milestone_id': None,
+            'priority_id': 2,
+            'refs': 'PRDT-4726',
+            'section_id': 3,
+            'suite_id': 2,
+            'template_id': 1,
+            'title': 'Verify linking to tap.try.buy. landing page in iOS app: '
+                     'TH-EN',
+            'type_id': 7,
+            'updated_by': 1,
+            'updated_on': 1632798155},
+           {'created_by': 1,
+            'created_on': 1632819400,
+            'custom_automation_type': 0,
+            'custom_description': None,
+            'custom_expected': "What's Try On Period Bottom Sheet is appear",
+            'custom_preconds': 'User select tap.try.buy. at home to purchase '
+                               'item and order status is during Try On Period',
+            'custom_steps': "1.User click 'LEARN MORE' on You're try on period "
+                            'box at order details page\r\n',
+            'custom_steps_separated': None,
+            'display_order': 1,
+            'estimate': None,
+            'estimate_forecast': None,
+            'id': 8,
+            'is_deleted': 0,
+            'milestone_id': None,
+            'priority_id': 2,
+            'refs': 'PRDT- 4624',
+            'section_id': 4,
+            'suite_id': 2,
+            'template_id': 1,
+            'title': "Verify linking to What's Try On Period Bottom Sheet in "
+                     'iOS app',
+            'type_id': 7,
+            'updated_by': 1,
+            'updated_on': 1632819647},
+           {'created_by': 1,
+            'created_on': 1632819409,
+            'custom_automation_type': 0,
+            'custom_description': None,
+            'custom_expected': 'Return Page in FAQ is appear',
+            'custom_preconds': 'User select tap.try.buy. at home to purchase '
+                               'item and order status is during Try On '
+                               'Period\r\n',
+            'custom_steps': "1. User click 'READ RETURN POLICY' CTA What's Try "
+                            'On Period Bottom Sheet',
+            'custom_steps_separated': None,
+            'display_order': 2,
+            'estimate': None,
+            'estimate_forecast': None,
+            'id': 9,
+            'is_deleted': 0,
+            'milestone_id': None,
+            'priority_id': 2,
+            'refs': 'PRDT-4624',
+            'section_id': 4,
+            'suite_id': 2,
+            'template_id': 1,
+            'title': "Verify linking to What's Try On Period Bottom Sheet in "
+                     "iOS app: 'READ RETURN POLICY' CTA",
+            'type_id': 7,
+            'updated_by': 1,
+            'updated_on': 1632822581},
+           {'created_by': 1,
+            'created_on': 1632819419,
+            'custom_automation_type': 0,
+            'custom_description': None,
+            'custom_expected': 'Support Page is appear',
+            'custom_preconds': 'User select tap.try.buy. at home to purchase '
+                               'item and order status is during Try On Period',
+            'custom_steps': "1. User click  'CONTACT US' button What's Try On "
+                            'Period Bottom Sheet',
+            'custom_steps_separated': None,
+            'display_order': 3,
+            'estimate': None,
+            'estimate_forecast': None,
+            'id': 10,
+            'is_deleted': 0,
+            'milestone_id': None,
+            'priority_id': 2,
+            'refs': 'PRDT-4624',
+            'section_id': 4,
+            'suite_id': 2,
+            'template_id': 1,
+            'title': "Verify linking to What's Try On Period Bottom Sheet in "
+                     "iOS app: 'CONTACT US' button",
+            'type_id': 7,
+            'updated_by': 1,
+            'updated_on': 1632819683},
+           {'created_by': 1,
+            'created_on': 1632822627,
+            'custom_automation_type': 0,
+            'custom_description': None,
+            'custom_expected': 'Navigate back to order details page with same '
+                               'status as previous',
+            'custom_preconds': 'User select tap.try.buy. at home to purchase '
+                               'item and order status is during Try On Period',
+            'custom_steps': '1. User click close button on Return page ',
+            'custom_steps_separated': None,
+            'display_order': 4,
+            'estimate': None,
+            'estimate_forecast': None,
+            'id': 12,
+            'is_deleted': 0,
+            'milestone_id': None,
+            'priority_id': 2,
+            'refs': 'PRDT-4624',
+            'section_id': 4,
+            'suite_id': 2,
+            'template_id': 1,
+            'title': 'Verify close Return page in FAQ',
+            'type_id': 7,
+            'updated_by': 1,
+            'updated_on': 1632822740},
+           {'created_by': 1,
+            'created_on': 1632822636,
+            'custom_automation_type': 0,
+            'custom_description': None,
+            'custom_expected': 'Navigate back to order details page with same '
+                               'status as previous',
+            'custom_preconds': 'User select tap.try.buy. at home to purchase '
+                               'item and order status is during Try On Period',
+            'custom_steps': '1. User click close button on support page ',
+            'custom_steps_separated': None,
+            'display_order': 5,
+            'estimate': None,
+            'estimate_forecast': None,
+            'id': 13,
+            'is_deleted': 0,
+            'milestone_id': None,
+            'priority_id': 2,
+            'refs': 'PRDT-4624',
+            'section_id': 4,
+            'suite_id': 2,
+            'template_id': 1,
+            'title': 'Verify close Support page',
+            'type_id': 7,
+            'updated_by': 1,
+            'updated_on': 1632822767},
+           {'created_by': 1,
+            'created_on': 1632822557,
+            'custom_automation_type': 0,
+            'custom_description': None,
+            'custom_expected': 'Show result as listing in table and\r\n'
+                               '- Front\r\n'
+                               '- Front size is exactly the same as figma',
+            'custom_preconds': None,
+            'custom_steps': '\r\n'
+                            '|||:Given that I am|:when I|:then|: section\r\n'
+                            '|| an end user | visit the TTB Landing Page |I am '
+                            'able to see the following sections:|Hero '
+                            'banner  \r\n'
+                            '|| |  |  | TTB steps \r\n'
+                            '|| |  |  | Shop Now section \r\n'
+                            '|| |  |  | Product carousel \r\n'
+                            '|| |  |  | FAQ section \r\n'
+                            '|| |  |  | Masonry section \r\n',
+            'custom_steps_separated': None,
+            'display_order': 1,
+            'estimate': None,
+            'estimate_forecast': None,
+            'id': 11,
+            'is_deleted': 0,
+            'milestone_id': None,
+            'priority_id': 2,
+            'refs': 'PRDT-4684',
+            'section_id': 5,
+            'suite_id': 2,
+            'template_id': 1,
+            'title': 'Verify Landing Page (TTB)',
+            'type_id': 7,
+            'updated_by': 1,
+            'updated_on': 1632822875},
+           {'created_by': 1,
+            'created_on': 1632823703,
+            'custom_automation_type': 0,
+            'custom_description': None,
+            'custom_expected': 'I am moved to the next section with a smooth '
+                               'transition\r\n'
+                               '- front\r\n'
+                               '- front size is set as same as figma\r\n',
+            'custom_preconds': 'Land into TTB page',
+            'custom_steps': 'click on the arrow CTA in hero banner\r\n\r\n',
+            'custom_steps_separated': None,
+            'display_order': 2,
+            'estimate': None,
+            'estimate_forecast': None,
+            'id': 15,
+            'is_deleted': 0,
+            'milestone_id': None,
+            'priority_id': 2,
+            'refs': 'PRDT-4685',
+            'section_id': 5,
+            'suite_id': 2,
+            'template_id': 1,
+            'title': 'Verify arrow CTA in hero banner',
+            'type_id': 6,
+            'updated_by': 1,
+            'updated_on': 1632824172},
+           {'created_by': 1,
+            'created_on': 1632824076,
+            'custom_automation_type': 0,
+            'custom_description': None,
+            'custom_expected': 'I am able to see images and relevant text that '
+                               'is managed via locize\r\n'
+                               '- front\r\n'
+                               '- front size is set as same as figma',
+            'custom_preconds': 'Landed in to TTB page',
+            'custom_steps': 'go to the TTB steps section',
+            'custom_steps_separated': None,
+            'display_order': 3,
+            'estimate': None,
+            'estimate_forecast': None,
+            'id': 16,
+            'is_deleted': 0,
+            'milestone_id': None,
+            'priority_id': 2,
+            'refs': 'PRDT-4684',
+            'section_id': 5,
+            'suite_id': 2,
+            'template_id': 1,
+            'title': 'Verify TTB steps section',
+            'type_id': 6,
+            'updated_by': 1,
+            'updated_on': 1632824151},
+           {'created_by': 1,
+            'created_on': 1632824329,
+            'custom_automation_type': 0,
+            'custom_description': None,
+            'custom_expected': 'I am redirected to the New Arrivals sections '
+                               'in app (if user opened in app) or webmobile '
+                               '(if user has no app)\r\n'
+                               '- Front\r\n'
+                               '- Front size is set as same as Figma',
+            'custom_preconds': 'Landed in to TTB Page',
+            'custom_steps': 'go to the Shop now section and click on the SHOP '
+                            'NOW CTA',
+            'custom_steps_separated': None,
+            'display_order': 4,
+            'estimate': None,
+            'estimate_forecast': None,
+            'id': 17,
+            'is_deleted': 0,
+            'milestone_id': None,
+            'priority_id': 2,
+            'refs': 'PRDT-4684',
+            'section_id': 5,
+            'suite_id': 2,
+            'template_id': 1,
+            'title': 'Verify  Shop now',
+            'type_id': 6,
+            'updated_by': 1,
+            'updated_on': 1632824387},
+           {'created_by': 1,
+            'created_on': 1632882695,
+            'custom_automation_type': 0,
+            'custom_description': None,
+            'custom_expected': "'request a return' button is at the bottom of "
+                               'the order details page',
+            'custom_preconds': 'User select tap.try.buy. at home to purchase '
+                               'item and order status is during Try On '
+                               'Period\r\n'
+                               'Turn on screen reader support\r\n',
+            'custom_steps': '1. Scroll down order details page in iOS app to '
+                            'bottom',
+            'custom_steps_separated': None,
+            'display_order': 1,
+            'estimate': None,
+            'estimate_forecast': None,
+            'id': 18,
+            'is_deleted': 0,
+            'milestone_id': None,
+            'priority_id': 2,
+            'refs': 'PRDT-4628',
+            'section_id': 7,
+            'suite_id': 2,
+            'template_id': 1,
+            'title': "Verify 'request a return' button",
+            'type_id': 7,
+            'updated_by': 1,
+            'updated_on': 1632882813},
+           {'created_by': 1,
+            'created_on': 1632882710,
+            'custom_automation_type': 0,
+            'custom_description': None,
+            'custom_expected': 'Order status is in the correct order by from '
+                               'Try On Period -&gt; Return Requested -&gt; '
+                               'Processing with Grab ',
+            'custom_preconds': 'User select tap.try.buy. at home to purchase '
+                               'item and order status is during Try On Period',
+            'custom_steps': '1. Open order details page\r\n'
+                            '2. Check order status bar',
+            'custom_steps_separated': None,
+            'display_order': 2,
+            'estimate': None,
+            'estimate_forecast': None,
+            'id': 19,
+            'is_deleted': 0,
+            'milestone_id': None,
+            'priority_id': 2,
+            'refs': 'PRDT-4628',
+            'section_id': 7,
+            'suite_id': 2,
+            'template_id': 1,
+            'title': 'Verify order status are lined up correctly',
+            'type_id': 7,
+            'updated_by': 1,
+            'updated_on': 1632882866},
+           {'created_by': 1,
+            'created_on': 1632882722,
+            'custom_automation_type': 0,
+            'custom_description': None,
+            'custom_expected': 'Try First Pay Later bottom sheet is appear',
+            'custom_preconds': 'User select tap.try.buy. at home to purchase '
+                               'item and order status is during Try On Period',
+            'custom_steps': "1. User click 'LEARN MORE' CTA on You're try on "
+                            'No Charge Today section at order details page\r\n',
+            'custom_steps_separated': None,
+            'display_order': 3,
+            'estimate': None,
+            'estimate_forecast': None,
+            'id': 20,
+            'is_deleted': 0,
+            'milestone_id': None,
+            'priority_id': 2,
+            'refs': None,
+            'section_id': 7,
+            'suite_id': 2,
+            'template_id': 1,
+            'title': "Verify linking No Charge Today section: 'LEARN MORE' CTA",
+            'type_id': 7,
+            'updated_by': 1,
+            'updated_on': 1632882892},
+           {'created_by': 1,
+            'created_on': 1632882729,
+            'custom_automation_type': 0,
+            'custom_description': None,
+            'custom_expected': "Payment summary section should not have 'How "
+                               "to book a pick up' CTA",
+            'custom_preconds': 'User select tap.try.buy. at home to purchase '
+                               'item and order status is during Try On Period',
+            'custom_steps': '1. Open order details page\r\n'
+                            '2. Check payment summary section',
+            'custom_steps_separated': None,
+            'display_order': 4,
+            'estimate': None,
+            'estimate_forecast': None,
+            'id': 21,
+            'is_deleted': 0,
+            'milestone_id': None,
+            'priority_id': 2,
+            'refs': 'PRDT-4628',
+            'section_id': 7,
+            'suite_id': 2,
+            'template_id': 1,
+            'title': 'Verify checking payment summary section',
+            'type_id': 7,
+            'updated_by': 1,
+            'updated_on': 1632882924},
+           {'created_by': 1,
+            'created_on': 1632882738,
+            'custom_automation_type': 0,
+            'custom_description': None,
+            'custom_expected': 'Return Instruction Page is appear ',
+            'custom_preconds': 'User select tap.try.buy. at home to purchase '
+                               'item and order status is during Try On Period',
+            'custom_steps': "1. User click 'request a return' button ",
+            'custom_steps_separated': None,
+            'display_order': 5,
+            'estimate': None,
+            'estimate_forecast': None,
+            'id': 22,
+            'is_deleted': 0,
+            'milestone_id': None,
+            'priority_id': 2,
+            'refs': 'PRDT-4628',
+            'section_id': 7,
+            'suite_id': 2,
+            'template_id': 1,
+            'title': 'Verify linking to Return Instruction Page',
+            'type_id': 7,
+            'updated_by': 1,
+            'updated_on': 1632882972},
+           {'created_by': 1,
+            'created_on': 1632882744,
+            'custom_automation_type': 0,
+            'custom_description': None,
+            'custom_expected': "Payment summary section should not have 'How "
+                               "to book a pick up' CTA",
+            'custom_preconds': 'User select tap.try.buy. at home to purchase '
+                               'item and order status is during Try On Period',
+            'custom_steps': '1. Open order details page\r\n'
+                            '2. Check payment summary section',
+            'custom_steps_separated': None,
+            'display_order': 6,
+            'estimate': None,
+            'estimate_forecast': None,
+            'id': 23,
+            'is_deleted': 0,
+            'milestone_id': None,
+            'priority_id': 2,
+            'refs': 'PRDT-4628',
+            'section_id': 7,
+            'suite_id': 2,
+            'template_id': 1,
+            'title': 'Verify checking payment summary section',
+            'type_id': 7,
+            'updated_by': 1,
+            'updated_on': 1632883011},
+           {'created_by': 1,
+            'created_on': 1633004272,
+            'custom_automation_type': 0,
+            'custom_description': 'In order to release the product QA need to '
+                                  'process end to end flow to validate if the '
+                                  'main business feature are working '
+                                  'correctly.',
+            'custom_expected': '- Order successfully\r\n'
+                               '- Return successfully \r\n'
+                               '- Amount/Total amount before/after return is '
+                               'calculate correctly',
+            'custom_preconds': 'New user, never purchase any product with '
+                               'pomelo before.',
+            'custom_steps': ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- Open Pomelo application\r\n'
+                            '- login/signup\r\n'
+                            '- choose product (2-3 items)\r\n'
+                            '- choose delivery to my address\r\n'
+                            '- choose cash on delivery\r\n'
+                            '- confirm order\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update backend processes\r\n'
+                            '- delivered to customer\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- customer create return\r\n'
+                            '- choose 1 out of (n) items that customer '
+                            'ordered\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update return status\r\n'
+                            '- return successfully  \r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- confirm returned credit/amount/cash back',
+            'custom_steps_separated': None,
+            'display_order': 1,
+            'estimate': None,
+            'estimate_forecast': None,
+            'id': 88,
+            'is_deleted': 0,
+            'milestone_id': None,
+            'priority_id': 3,
+            'refs': 'QAFE-70',
+            'section_id': 13,
+            'suite_id': 2,
+            'template_id': 1,
+            'title': 'New User',
+            'type_id': 9,
+            'updated_by': 1,
+            'updated_on': 1633005054},
+           {'created_by': 1,
+            'created_on': 1633005092,
+            'custom_automation_type': 0,
+            'custom_description': 'In order to release the product QA need to '
+                                  'process end to end flow to validate if the '
+                                  'main business feature are working '
+                                  'correctly.',
+            'custom_expected': '- Order successfully\r\n'
+                               '- Return successfully \r\n'
+                               '- Amount/Total amount before/after return is '
+                               'calculate correctly',
+            'custom_preconds': 'Membership, customer used to purchase any '
+                               'product with pomelo before.',
+            'custom_steps': ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- Open Pomelo application\r\n'
+                            '- login/signup\r\n'
+                            '- choose product (2-3 items)\r\n'
+                            '- choose delivery to my address\r\n'
+                            '- choose cash on delivery\r\n'
+                            '- confirm order\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update backend processes\r\n'
+                            '- delivered to customer\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- customer create return\r\n'
+                            '- choose 1 out of (n) items that customer '
+                            'ordered\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update return status\r\n'
+                            '- return successfully  \r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- confirm returned credit/amount/cash back',
+            'custom_steps_separated': None,
+            'display_order': 2,
+            'estimate': None,
+            'estimate_forecast': None,
+            'id': 97,
+            'is_deleted': 0,
+            'milestone_id': None,
+            'priority_id': 3,
+            'refs': 'QAFE-70',
+            'section_id': 13,
+            'suite_id': 2,
+            'template_id': 1,
+            'title': 'Membership',
+            'type_id': 9,
+            'updated_by': 1,
+            'updated_on': 1633005145},
+           {'created_by': 1,
+            'created_on': 1633005097,
+            'custom_automation_type': 0,
+            'custom_description': 'In order to release the product QA need to '
+                                  'process end to end flow to validate if the '
+                                  'main business feature are working '
+                                  'correctly.',
+            'custom_expected': '- Order successfully\r\n'
+                               '- Return successfully \r\n'
+                               '- Amount/Total amount before/after return is '
+                               'calculate correctly',
+            'custom_preconds': 'Pomelo employee, no matter they never or used '
+                               'to purchase any product with pomelo before.',
+            'custom_steps': ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- Open Pomelo application\r\n'
+                            '- login/signup\r\n'
+                            '- choose product (2-3 items)\r\n'
+                            '- choose delivery to my address\r\n'
+                            '- choose cash on delivery\r\n'
+                            '- confirm order\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update backend processes\r\n'
+                            '- delivered to customer\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- customer create return\r\n'
+                            '- choose 1 out of (n) items that customer '
+                            'ordered\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update return status\r\n'
+                            '- return successfully  \r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- confirm returned credit/amount/cash back',
+            'custom_steps_separated': None,
+            'display_order': 3,
+            'estimate': None,
+            'estimate_forecast': None,
+            'id': 98,
+            'is_deleted': 0,
+            'milestone_id': None,
+            'priority_id': 3,
+            'refs': 'QAFE-70',
+            'section_id': 13,
+            'suite_id': 2,
+            'template_id': 1,
+            'title': 'Pomelo employee',
+            'type_id': 9,
+            'updated_by': 1,
+            'updated_on': 1633005219},
+           {'created_by': 1,
+            'created_on': 1633005380,
+            'custom_automation_type': 0,
+            'custom_description': 'In order to release the product QA need to '
+                                  'process end to end flow to validate if the '
+                                  'main business feature are working '
+                                  'correctly.',
+            'custom_expected': '- Order successfully\r\n'
+                               '- Return successfully \r\n'
+                               '- Amount/Total amount before/after return is '
+                               'calculate correctly',
+            'custom_preconds': 'New user, never purchase any product with '
+                               'pomelo before.',
+            'custom_steps': ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- Open Pomelo application\r\n'
+                            '- login/signup\r\n'
+                            '- choose product (2-3 items)\r\n'
+                            '- choose delivery to my address\r\n'
+                            '- choose cash on delivery\r\n'
+                            '- confirm order\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update backend processes\r\n'
+                            '- delivered to customer\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- customer create return\r\n'
+                            '- choose 1 out of (n) items that customer '
+                            'ordered\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update return status\r\n'
+                            '- return successfully  \r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- confirm returned credit/amount/cash back',
+            'custom_steps_separated': None,
+            'display_order': 1,
+            'estimate': None,
+            'estimate_forecast': None,
+            'id': 99,
+            'is_deleted': 0,
+            'milestone_id': None,
+            'priority_id': 3,
+            'refs': 'QAFE-70',
+            'section_id': 14,
+            'suite_id': 2,
+            'template_id': 1,
+            'title': 'New User',
+            'type_id': 9,
+            'updated_by': 1,
+            'updated_on': 1633005380},
+           {'created_by': 1,
+            'created_on': 1633005380,
+            'custom_automation_type': 0,
+            'custom_description': 'In order to release the product QA need to '
+                                  'process end to end flow to validate if the '
+                                  'main business feature are working '
+                                  'correctly.',
+            'custom_expected': '- Order successfully\r\n'
+                               '- Return successfully \r\n'
+                               '- Amount/Total amount before/after return is '
+                               'calculate correctly',
+            'custom_preconds': 'Membership, customer used to purchase any '
+                               'product with pomelo before.',
+            'custom_steps': ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- Open Pomelo application\r\n'
+                            '- login/signup\r\n'
+                            '- choose product (2-3 items)\r\n'
+                            '- choose delivery to my address\r\n'
+                            '- choose cash on delivery\r\n'
+                            '- confirm order\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update backend processes\r\n'
+                            '- delivered to customer\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- customer create return\r\n'
+                            '- choose 1 out of (n) items that customer '
+                            'ordered\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update return status\r\n'
+                            '- return successfully  \r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- confirm returned credit/amount/cash back',
+            'custom_steps_separated': None,
+            'display_order': 2,
+            'estimate': None,
+            'estimate_forecast': None,
+            'id': 100,
+            'is_deleted': 0,
+            'milestone_id': None,
+            'priority_id': 3,
+            'refs': 'QAFE-70',
+            'section_id': 14,
+            'suite_id': 2,
+            'template_id': 1,
+            'title': 'Membership',
+            'type_id': 9,
+            'updated_by': 1,
+            'updated_on': 1633005380},
+           {'created_by': 1,
+            'created_on': 1633005380,
+            'custom_automation_type': 0,
+            'custom_description': 'In order to release the product QA need to '
+                                  'process end to end flow to validate if the '
+                                  'main business feature are working '
+                                  'correctly.',
+            'custom_expected': '- Order successfully\r\n'
+                               '- Return successfully \r\n'
+                               '- Amount/Total amount before/after return is '
+                               'calculate correctly',
+            'custom_preconds': 'Pomelo employee, no matter they never or used '
+                               'to purchase any product with pomelo before.',
+            'custom_steps': ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- Open Pomelo application\r\n'
+                            '- login/signup\r\n'
+                            '- choose product (2-3 items)\r\n'
+                            '- choose delivery to my address\r\n'
+                            '- choose cash on delivery\r\n'
+                            '- confirm order\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update backend processes\r\n'
+                            '- delivered to customer\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- customer create return\r\n'
+                            '- choose 1 out of (n) items that customer '
+                            'ordered\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update return status\r\n'
+                            '- return successfully  \r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- confirm returned credit/amount/cash back',
+            'custom_steps_separated': None,
+            'display_order': 3,
+            'estimate': None,
+            'estimate_forecast': None,
+            'id': 101,
+            'is_deleted': 0,
+            'milestone_id': None,
+            'priority_id': 3,
+            'refs': 'QAFE-70',
+            'section_id': 14,
+            'suite_id': 2,
+            'template_id': 1,
+            'title': 'Pomelo employee',
+            'type_id': 9,
+            'updated_by': 1,
+            'updated_on': 1633005380},
+           {'created_by': 1,
+            'created_on': 1633005414,
+            'custom_automation_type': 0,
+            'custom_description': 'In order to release the product QA need to '
+                                  'process end to end flow to validate if the '
+                                  'main business feature are working '
+                                  'correctly.',
+            'custom_expected': '- Order successfully\r\n'
+                               '- Return successfully \r\n'
+                               '- Amount/Total amount before/after return is '
+                               'calculate correctly',
+            'custom_preconds': 'New user, never purchase any product with '
+                               'pomelo before.',
+            'custom_steps': ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- Open Pomelo application\r\n'
+                            '- login/signup\r\n'
+                            '- choose product (2-3 items)\r\n'
+                            '- choose delivery to my address\r\n'
+                            '- choose cash on delivery\r\n'
+                            '- confirm order\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update backend processes\r\n'
+                            '- delivered to customer\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- customer create return\r\n'
+                            '- choose 1 out of (n) items that customer '
+                            'ordered\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update return status\r\n'
+                            '- return successfully  \r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- confirm returned credit/amount/cash back',
+            'custom_steps_separated': None,
+            'display_order': 1,
+            'estimate': None,
+            'estimate_forecast': None,
+            'id': 102,
+            'is_deleted': 0,
+            'milestone_id': None,
+            'priority_id': 3,
+            'refs': 'QAFE-70',
+            'section_id': 15,
+            'suite_id': 2,
+            'template_id': 1,
+            'title': 'New User',
+            'type_id': 9,
+            'updated_by': 1,
+            'updated_on': 1633005414},
+           {'created_by': 1,
+            'created_on': 1633005414,
+            'custom_automation_type': 0,
+            'custom_description': 'In order to release the product QA need to '
+                                  'process end to end flow to validate if the '
+                                  'main business feature are working '
+                                  'correctly.',
+            'custom_expected': '- Order successfully\r\n'
+                               '- Return successfully \r\n'
+                               '- Amount/Total amount before/after return is '
+                               'calculate correctly',
+            'custom_preconds': 'Membership, customer used to purchase any '
+                               'product with pomelo before.',
+            'custom_steps': ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- Open Pomelo application\r\n'
+                            '- login/signup\r\n'
+                            '- choose product (2-3 items)\r\n'
+                            '- choose delivery to my address\r\n'
+                            '- choose cash on delivery\r\n'
+                            '- confirm order\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update backend processes\r\n'
+                            '- delivered to customer\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- customer create return\r\n'
+                            '- choose 1 out of (n) items that customer '
+                            'ordered\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update return status\r\n'
+                            '- return successfully  \r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- confirm returned credit/amount/cash back',
+            'custom_steps_separated': None,
+            'display_order': 2,
+            'estimate': None,
+            'estimate_forecast': None,
+            'id': 103,
+            'is_deleted': 0,
+            'milestone_id': None,
+            'priority_id': 3,
+            'refs': 'QAFE-70',
+            'section_id': 15,
+            'suite_id': 2,
+            'template_id': 1,
+            'title': 'Membership',
+            'type_id': 9,
+            'updated_by': 1,
+            'updated_on': 1633005414},
+           {'created_by': 1,
+            'created_on': 1633005414,
+            'custom_automation_type': 0,
+            'custom_description': 'In order to release the product QA need to '
+                                  'process end to end flow to validate if the '
+                                  'main business feature are working '
+                                  'correctly.',
+            'custom_expected': '- Order successfully\r\n'
+                               '- Return successfully \r\n'
+                               '- Amount/Total amount before/after return is '
+                               'calculate correctly',
+            'custom_preconds': 'Pomelo employee, no matter they never or used '
+                               'to purchase any product with pomelo before.',
+            'custom_steps': ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- Open Pomelo application\r\n'
+                            '- login/signup\r\n'
+                            '- choose product (2-3 items)\r\n'
+                            '- choose delivery to my address\r\n'
+                            '- choose cash on delivery\r\n'
+                            '- confirm order\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update backend processes\r\n'
+                            '- delivered to customer\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- customer create return\r\n'
+                            '- choose 1 out of (n) items that customer '
+                            'ordered\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update return status\r\n'
+                            '- return successfully  \r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- confirm returned credit/amount/cash back',
+            'custom_steps_separated': None,
+            'display_order': 3,
+            'estimate': None,
+            'estimate_forecast': None,
+            'id': 104,
+            'is_deleted': 0,
+            'milestone_id': None,
+            'priority_id': 3,
+            'refs': 'QAFE-70',
+            'section_id': 15,
+            'suite_id': 2,
+            'template_id': 1,
+            'title': 'Pomelo employee',
+            'type_id': 9,
+            'updated_by': 1,
+            'updated_on': 1633005414},
+           {'created_by': 1,
+            'created_on': 1633005434,
+            'custom_automation_type': 0,
+            'custom_description': 'In order to release the product QA need to '
+                                  'process end to end flow to validate if the '
+                                  'main business feature are working '
+                                  'correctly.',
+            'custom_expected': '- Order successfully\r\n'
+                               '- Return successfully \r\n'
+                               '- Amount/Total amount before/after return is '
+                               'calculate correctly',
+            'custom_preconds': 'New user, never purchase any product with '
+                               'pomelo before.',
+            'custom_steps': ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- Open Pomelo application\r\n'
+                            '- login/signup\r\n'
+                            '- choose product (2-3 items)\r\n'
+                            '- choose delivery to my address\r\n'
+                            '- choose cash on delivery\r\n'
+                            '- confirm order\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update backend processes\r\n'
+                            '- delivered to customer\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- customer create return\r\n'
+                            '- choose 1 out of (n) items that customer '
+                            'ordered\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update return status\r\n'
+                            '- return successfully  \r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- confirm returned credit/amount/cash back',
+            'custom_steps_separated': None,
+            'display_order': 1,
+            'estimate': None,
+            'estimate_forecast': None,
+            'id': 105,
+            'is_deleted': 0,
+            'milestone_id': None,
+            'priority_id': 3,
+            'refs': 'QAFE-70',
+            'section_id': 16,
+            'suite_id': 2,
+            'template_id': 1,
+            'title': 'New User',
+            'type_id': 9,
+            'updated_by': 1,
+            'updated_on': 1633005434},
+           {'created_by': 1,
+            'created_on': 1633005434,
+            'custom_automation_type': 0,
+            'custom_description': 'In order to release the product QA need to '
+                                  'process end to end flow to validate if the '
+                                  'main business feature are working '
+                                  'correctly.',
+            'custom_expected': '- Order successfully\r\n'
+                               '- Return successfully \r\n'
+                               '- Amount/Total amount before/after return is '
+                               'calculate correctly',
+            'custom_preconds': 'Membership, customer used to purchase any '
+                               'product with pomelo before.',
+            'custom_steps': ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- Open Pomelo application\r\n'
+                            '- login/signup\r\n'
+                            '- choose product (2-3 items)\r\n'
+                            '- choose delivery to my address\r\n'
+                            '- choose cash on delivery\r\n'
+                            '- confirm order\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update backend processes\r\n'
+                            '- delivered to customer\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- customer create return\r\n'
+                            '- choose 1 out of (n) items that customer '
+                            'ordered\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update return status\r\n'
+                            '- return successfully  \r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- confirm returned credit/amount/cash back',
+            'custom_steps_separated': None,
+            'display_order': 2,
+            'estimate': None,
+            'estimate_forecast': None,
+            'id': 106,
+            'is_deleted': 0,
+            'milestone_id': None,
+            'priority_id': 3,
+            'refs': 'QAFE-70',
+            'section_id': 16,
+            'suite_id': 2,
+            'template_id': 1,
+            'title': 'Membership',
+            'type_id': 9,
+            'updated_by': 1,
+            'updated_on': 1633005434},
+           {'created_by': 1,
+            'created_on': 1633005434,
+            'custom_automation_type': 0,
+            'custom_description': 'In order to release the product QA need to '
+                                  'process end to end flow to validate if the '
+                                  'main business feature are working '
+                                  'correctly.',
+            'custom_expected': '- Order successfully\r\n'
+                               '- Return successfully \r\n'
+                               '- Amount/Total amount before/after return is '
+                               'calculate correctly',
+            'custom_preconds': 'Pomelo employee, no matter they never or used '
+                               'to purchase any product with pomelo before.',
+            'custom_steps': ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- Open Pomelo application\r\n'
+                            '- login/signup\r\n'
+                            '- choose product (2-3 items)\r\n'
+                            '- choose delivery to my address\r\n'
+                            '- choose cash on delivery\r\n'
+                            '- confirm order\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update backend processes\r\n'
+                            '- delivered to customer\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- customer create return\r\n'
+                            '- choose 1 out of (n) items that customer '
+                            'ordered\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update return status\r\n'
+                            '- return successfully  \r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- confirm returned credit/amount/cash back',
+            'custom_steps_separated': None,
+            'display_order': 3,
+            'estimate': None,
+            'estimate_forecast': None,
+            'id': 107,
+            'is_deleted': 0,
+            'milestone_id': None,
+            'priority_id': 3,
+            'refs': 'QAFE-70',
+            'section_id': 16,
+            'suite_id': 2,
+            'template_id': 1,
+            'title': 'Pomelo employee',
+            'type_id': 9,
+            'updated_by': 1,
+            'updated_on': 1633005434},
+           {'created_by': 1,
+            'created_on': 1633005452,
+            'custom_automation_type': 0,
+            'custom_description': 'In order to release the product QA need to '
+                                  'process end to end flow to validate if the '
+                                  'main business feature are working '
+                                  'correctly.',
+            'custom_expected': '- Order successfully\r\n'
+                               '- Return successfully \r\n'
+                               '- Amount/Total amount before/after return is '
+                               'calculate correctly',
+            'custom_preconds': 'New user, never purchase any product with '
+                               'pomelo before.',
+            'custom_steps': ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- Open Pomelo application\r\n'
+                            '- login/signup\r\n'
+                            '- choose product (2-3 items)\r\n'
+                            '- choose delivery to my address\r\n'
+                            '- choose cash on delivery\r\n'
+                            '- confirm order\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update backend processes\r\n'
+                            '- delivered to customer\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- customer create return\r\n'
+                            '- choose 1 out of (n) items that customer '
+                            'ordered\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update return status\r\n'
+                            '- return successfully  \r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- confirm returned credit/amount/cash back',
+            'custom_steps_separated': None,
+            'display_order': 1,
+            'estimate': None,
+            'estimate_forecast': None,
+            'id': 108,
+            'is_deleted': 0,
+            'milestone_id': None,
+            'priority_id': 3,
+            'refs': 'QAFE-70',
+            'section_id': 17,
+            'suite_id': 2,
+            'template_id': 1,
+            'title': 'New User',
+            'type_id': 9,
+            'updated_by': 1,
+            'updated_on': 1633005452},
+           {'created_by': 1,
+            'created_on': 1633005452,
+            'custom_automation_type': 0,
+            'custom_description': 'In order to release the product QA need to '
+                                  'process end to end flow to validate if the '
+                                  'main business feature are working '
+                                  'correctly.',
+            'custom_expected': '- Order successfully\r\n'
+                               '- Return successfully \r\n'
+                               '- Amount/Total amount before/after return is '
+                               'calculate correctly',
+            'custom_preconds': 'Membership, customer used to purchase any '
+                               'product with pomelo before.',
+            'custom_steps': ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- Open Pomelo application\r\n'
+                            '- login/signup\r\n'
+                            '- choose product (2-3 items)\r\n'
+                            '- choose delivery to my address\r\n'
+                            '- choose cash on delivery\r\n'
+                            '- confirm order\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update backend processes\r\n'
+                            '- delivered to customer\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- customer create return\r\n'
+                            '- choose 1 out of (n) items that customer '
+                            'ordered\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update return status\r\n'
+                            '- return successfully  \r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- confirm returned credit/amount/cash back',
+            'custom_steps_separated': None,
+            'display_order': 2,
+            'estimate': None,
+            'estimate_forecast': None,
+            'id': 109,
+            'is_deleted': 0,
+            'milestone_id': None,
+            'priority_id': 3,
+            'refs': 'QAFE-70',
+            'section_id': 17,
+            'suite_id': 2,
+            'template_id': 1,
+            'title': 'Membership',
+            'type_id': 9,
+            'updated_by': 1,
+            'updated_on': 1633005452},
+           {'created_by': 1,
+            'created_on': 1633005452,
+            'custom_automation_type': 0,
+            'custom_description': 'In order to release the product QA need to '
+                                  'process end to end flow to validate if the '
+                                  'main business feature are working '
+                                  'correctly.',
+            'custom_expected': '- Order successfully\r\n'
+                               '- Return successfully \r\n'
+                               '- Amount/Total amount before/after return is '
+                               'calculate correctly',
+            'custom_preconds': 'Pomelo employee, no matter they never or used '
+                               'to purchase any product with pomelo before.',
+            'custom_steps': ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- Open Pomelo application\r\n'
+                            '- login/signup\r\n'
+                            '- choose product (2-3 items)\r\n'
+                            '- choose delivery to my address\r\n'
+                            '- choose cash on delivery\r\n'
+                            '- confirm order\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update backend processes\r\n'
+                            '- delivered to customer\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- customer create return\r\n'
+                            '- choose 1 out of (n) items that customer '
+                            'ordered\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update return status\r\n'
+                            '- return successfully  \r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- confirm returned credit/amount/cash back',
+            'custom_steps_separated': None,
+            'display_order': 3,
+            'estimate': None,
+            'estimate_forecast': None,
+            'id': 110,
+            'is_deleted': 0,
+            'milestone_id': None,
+            'priority_id': 3,
+            'refs': 'QAFE-70',
+            'section_id': 17,
+            'suite_id': 2,
+            'template_id': 1,
+            'title': 'Pomelo employee',
+            'type_id': 9,
+            'updated_by': 1,
+            'updated_on': 1633005452},
+           {'created_by': 1,
+            'created_on': 1633005486,
+            'custom_automation_type': 0,
+            'custom_description': 'In order to release the product QA need to '
+                                  'process end to end flow to validate if the '
+                                  'main business feature are working '
+                                  'correctly.',
+            'custom_expected': '- Order successfully\r\n'
+                               '- Return successfully \r\n'
+                               '- Amount/Total amount before/after return is '
+                               'calculate correctly',
+            'custom_preconds': 'New user, never purchase any product with '
+                               'pomelo before.',
+            'custom_steps': ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- Open Pomelo application\r\n'
+                            '- login/signup\r\n'
+                            '- choose product (2-3 items)\r\n'
+                            '- choose delivery to my address\r\n'
+                            '- choose cash on delivery\r\n'
+                            '- confirm order\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update backend processes\r\n'
+                            '- delivered to customer\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- customer create return\r\n'
+                            '- choose 1 out of (n) items that customer '
+                            'ordered\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update return status\r\n'
+                            '- return successfully  \r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- confirm returned credit/amount/cash back',
+            'custom_steps_separated': None,
+            'display_order': 1,
+            'estimate': None,
+            'estimate_forecast': None,
+            'id': 111,
+            'is_deleted': 0,
+            'milestone_id': None,
+            'priority_id': 3,
+            'refs': 'QAFE-70',
+            'section_id': 18,
+            'suite_id': 2,
+            'template_id': 1,
+            'title': 'New User',
+            'type_id': 9,
+            'updated_by': 1,
+            'updated_on': 1633005486},
+           {'created_by': 1,
+            'created_on': 1633005486,
+            'custom_automation_type': 0,
+            'custom_description': 'In order to release the product QA need to '
+                                  'process end to end flow to validate if the '
+                                  'main business feature are working '
+                                  'correctly.',
+            'custom_expected': '- Order successfully\r\n'
+                               '- Return successfully \r\n'
+                               '- Amount/Total amount before/after return is '
+                               'calculate correctly',
+            'custom_preconds': 'Membership, customer used to purchase any '
+                               'product with pomelo before.',
+            'custom_steps': ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- Open Pomelo application\r\n'
+                            '- login/signup\r\n'
+                            '- choose product (2-3 items)\r\n'
+                            '- choose delivery to my address\r\n'
+                            '- choose cash on delivery\r\n'
+                            '- confirm order\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update backend processes\r\n'
+                            '- delivered to customer\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- customer create return\r\n'
+                            '- choose 1 out of (n) items that customer '
+                            'ordered\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update return status\r\n'
+                            '- return successfully  \r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- confirm returned credit/amount/cash back',
+            'custom_steps_separated': None,
+            'display_order': 2,
+            'estimate': None,
+            'estimate_forecast': None,
+            'id': 112,
+            'is_deleted': 0,
+            'milestone_id': None,
+            'priority_id': 3,
+            'refs': 'QAFE-70',
+            'section_id': 18,
+            'suite_id': 2,
+            'template_id': 1,
+            'title': 'Membership',
+            'type_id': 9,
+            'updated_by': 1,
+            'updated_on': 1633005486},
+           {'created_by': 1,
+            'created_on': 1633005486,
+            'custom_automation_type': 0,
+            'custom_description': 'In order to release the product QA need to '
+                                  'process end to end flow to validate if the '
+                                  'main business feature are working '
+                                  'correctly.',
+            'custom_expected': '- Order successfully\r\n'
+                               '- Return successfully \r\n'
+                               '- Amount/Total amount before/after return is '
+                               'calculate correctly',
+            'custom_preconds': 'Pomelo employee, no matter they never or used '
+                               'to purchase any product with pomelo before.',
+            'custom_steps': ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- Open Pomelo application\r\n'
+                            '- login/signup\r\n'
+                            '- choose product (2-3 items)\r\n'
+                            '- choose delivery to my address\r\n'
+                            '- choose cash on delivery\r\n'
+                            '- confirm order\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update backend processes\r\n'
+                            '- delivered to customer\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- customer create return\r\n'
+                            '- choose 1 out of (n) items that customer '
+                            'ordered\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update return status\r\n'
+                            '- return successfully  \r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- confirm returned credit/amount/cash back',
+            'custom_steps_separated': None,
+            'display_order': 3,
+            'estimate': None,
+            'estimate_forecast': None,
+            'id': 113,
+            'is_deleted': 0,
+            'milestone_id': None,
+            'priority_id': 3,
+            'refs': 'QAFE-70',
+            'section_id': 18,
+            'suite_id': 2,
+            'template_id': 1,
+            'title': 'Pomelo employee',
+            'type_id': 9,
+            'updated_by': 1,
+            'updated_on': 1633005486},
+           {'created_by': 1,
+            'created_on': 1633005502,
+            'custom_automation_type': 0,
+            'custom_description': 'In order to release the product QA need to '
+                                  'process end to end flow to validate if the '
+                                  'main business feature are working '
+                                  'correctly.',
+            'custom_expected': '- Order successfully\r\n'
+                               '- Return successfully \r\n'
+                               '- Amount/Total amount before/after return is '
+                               'calculate correctly',
+            'custom_preconds': 'New user, never purchase any product with '
+                               'pomelo before.',
+            'custom_steps': ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- Open Pomelo application\r\n'
+                            '- login/signup\r\n'
+                            '- choose product (2-3 items)\r\n'
+                            '- choose delivery to my address\r\n'
+                            '- choose cash on delivery\r\n'
+                            '- confirm order\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update backend processes\r\n'
+                            '- delivered to customer\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- customer create return\r\n'
+                            '- choose 1 out of (n) items that customer '
+                            'ordered\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update return status\r\n'
+                            '- return successfully  \r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- confirm returned credit/amount/cash back',
+            'custom_steps_separated': None,
+            'display_order': 1,
+            'estimate': None,
+            'estimate_forecast': None,
+            'id': 114,
+            'is_deleted': 0,
+            'milestone_id': None,
+            'priority_id': 3,
+            'refs': 'QAFE-70',
+            'section_id': 19,
+            'suite_id': 2,
+            'template_id': 1,
+            'title': 'New User',
+            'type_id': 9,
+            'updated_by': 1,
+            'updated_on': 1633005502},
+           {'created_by': 1,
+            'created_on': 1633005502,
+            'custom_automation_type': 0,
+            'custom_description': 'In order to release the product QA need to '
+                                  'process end to end flow to validate if the '
+                                  'main business feature are working '
+                                  'correctly.',
+            'custom_expected': '- Order successfully\r\n'
+                               '- Return successfully \r\n'
+                               '- Amount/Total amount before/after return is '
+                               'calculate correctly',
+            'custom_preconds': 'Membership, customer used to purchase any '
+                               'product with pomelo before.',
+            'custom_steps': ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- Open Pomelo application\r\n'
+                            '- login/signup\r\n'
+                            '- choose product (2-3 items)\r\n'
+                            '- choose delivery to my address\r\n'
+                            '- choose cash on delivery\r\n'
+                            '- confirm order\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update backend processes\r\n'
+                            '- delivered to customer\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- customer create return\r\n'
+                            '- choose 1 out of (n) items that customer '
+                            'ordered\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update return status\r\n'
+                            '- return successfully  \r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- confirm returned credit/amount/cash back',
+            'custom_steps_separated': None,
+            'display_order': 2,
+            'estimate': None,
+            'estimate_forecast': None,
+            'id': 115,
+            'is_deleted': 0,
+            'milestone_id': None,
+            'priority_id': 3,
+            'refs': 'QAFE-70',
+            'section_id': 19,
+            'suite_id': 2,
+            'template_id': 1,
+            'title': 'Membership',
+            'type_id': 9,
+            'updated_by': 1,
+            'updated_on': 1633005502},
+           {'created_by': 1,
+            'created_on': 1633005502,
+            'custom_automation_type': 0,
+            'custom_description': 'In order to release the product QA need to '
+                                  'process end to end flow to validate if the '
+                                  'main business feature are working '
+                                  'correctly.',
+            'custom_expected': '- Order successfully\r\n'
+                               '- Return successfully \r\n'
+                               '- Amount/Total amount before/after return is '
+                               'calculate correctly',
+            'custom_preconds': 'Pomelo employee, no matter they never or used '
+                               'to purchase any product with pomelo before.',
+            'custom_steps': ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- Open Pomelo application\r\n'
+                            '- login/signup\r\n'
+                            '- choose product (2-3 items)\r\n'
+                            '- choose delivery to my address\r\n'
+                            '- choose cash on delivery\r\n'
+                            '- confirm order\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update backend processes\r\n'
+                            '- delivered to customer\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- customer create return\r\n'
+                            '- choose 1 out of (n) items that customer '
+                            'ordered\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update return status\r\n'
+                            '- return successfully  \r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- confirm returned credit/amount/cash back',
+            'custom_steps_separated': None,
+            'display_order': 3,
+            'estimate': None,
+            'estimate_forecast': None,
+            'id': 116,
+            'is_deleted': 0,
+            'milestone_id': None,
+            'priority_id': 3,
+            'refs': 'QAFE-70',
+            'section_id': 19,
+            'suite_id': 2,
+            'template_id': 1,
+            'title': 'Pomelo employee',
+            'type_id': 9,
+            'updated_by': 1,
+            'updated_on': 1633005502},
+           {'created_by': 1,
+            'created_on': 1633059704,
+            'custom_automation_type': 0,
+            'custom_description': 'In order to release the product QA need to '
+                                  'process end to end flow to validate if the '
+                                  'main business feature are working '
+                                  'correctly.New user, never purchase any '
+                                  'product with pomelo before.',
+            'custom_expected': '- Order successfully\r\n'
+                               '- Return successfully \r\n'
+                               '- Amount/Total amount before/after return is '
+                               'calculate correctly',
+            'custom_preconds': 'New user, never purchase any product with '
+                               'pomelo before.',
+            'custom_steps': ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- Open Pomelo application\r\n'
+                            '- login/signup\r\n'
+                            '- choose product (2-3 items)\r\n'
+                            '- choose delivery to my address\r\n'
+                            '- choose cash on delivery\r\n'
+                            '- confirm order\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update backend processes\r\n'
+                            '- delivered to customer\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- customer create return\r\n'
+                            '- choose 1 out of (n) items that customer '
+                            'ordered\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update return status\r\n'
+                            '- return successfully  \r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- confirm returned credit/amount/cash back',
+            'custom_steps_separated': None,
+            'display_order': 1,
+            'estimate': None,
+            'estimate_forecast': None,
+            'id': 138,
+            'is_deleted': 0,
+            'milestone_id': None,
+            'priority_id': 2,
+            'refs': 'QAFE-71',
+            'section_id': 20,
+            'suite_id': 2,
+            'template_id': 1,
+            'title': 'New User',
+            'type_id': 7,
+            'updated_by': 1,
+            'updated_on': 1633060197},
+           {'created_by': 1,
+            'created_on': 1633059727,
+            'custom_automation_type': 0,
+            'custom_description': 'In order to release the product QA need to '
+                                  'process end to end flow to validate if the '
+                                  'main business feature are working '
+                                  'correctly.',
+            'custom_expected': '- Order successfully\r\n'
+                               '- Return successfully \r\n'
+                               '- Amount/Total amount before/after return is '
+                               'calculate correctly',
+            'custom_preconds': 'Membership, customer used to purchase any '
+                               'product with pomelo before.',
+            'custom_steps': ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- Open Pomelo application\r\n'
+                            '- login/signup\r\n'
+                            '- choose product (2-3 items)\r\n'
+                            '- choose delivery to my address\r\n'
+                            '- choose cash on delivery\r\n'
+                            '- confirm order\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update backend processes\r\n'
+                            '- delivered to customer\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- customer create return\r\n'
+                            '- choose 1 out of (n) items that customer '
+                            'ordered\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update return status\r\n'
+                            '- return successfully  \r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- confirm returned credit/amount/cash back',
+            'custom_steps_separated': None,
+            'display_order': 2,
+            'estimate': None,
+            'estimate_forecast': None,
+            'id': 145,
+            'is_deleted': 0,
+            'milestone_id': None,
+            'priority_id': 2,
+            'refs': 'QAFE-71',
+            'section_id': 20,
+            'suite_id': 2,
+            'template_id': 1,
+            'title': 'Membership',
+            'type_id': 7,
+            'updated_by': 1,
+            'updated_on': 1633060514},
+           {'created_by': 1,
+            'created_on': 1633060089,
+            'custom_automation_type': 0,
+            'custom_description': 'In order to release the product QA need to '
+                                  'process end to end flow to validate if the '
+                                  'main business feature are working '
+                                  'correctly.',
+            'custom_expected': '- Order successfully\r\n'
+                               '- Return successfully \r\n'
+                               '- Amount/Total amount before/after return is '
+                               'calculate correctly',
+            'custom_preconds': 'Pomelo employee, no matter they never or used '
+                               'to purchase any product with pomelo before.',
+            'custom_steps': ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- Open Pomelo application\r\n'
+                            '- login/signup\r\n'
+                            '- choose product (2-3 items)\r\n'
+                            '- choose delivery to my address\r\n'
+                            '- choose cash on delivery\r\n'
+                            '- confirm order\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update backend processes\r\n'
+                            '- delivered to customer\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- customer create return\r\n'
+                            '- choose 1 out of (n) items that customer '
+                            'ordered\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update return status\r\n'
+                            '- return successfully  \r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- confirm returned credit/amount/cash back',
+            'custom_steps_separated': None,
+            'display_order': 3,
+            'estimate': None,
+            'estimate_forecast': None,
+            'id': 152,
+            'is_deleted': 0,
+            'milestone_id': None,
+            'priority_id': 2,
+            'refs': 'QAFE-71',
+            'section_id': 20,
+            'suite_id': 2,
+            'template_id': 1,
+            'title': 'Pomelo employee',
+            'type_id': 7,
+            'updated_by': 1,
+            'updated_on': 1633063042},
+           {'created_by': 1,
+            'created_on': 1633059706,
+            'custom_automation_type': 0,
+            'custom_description': 'In order to release the product QA need to '
+                                  'process end to end flow to validate if the '
+                                  'main business feature are working '
+                                  'correctly.',
+            'custom_expected': '- Order successfully\r\n'
+                               '- Return successfully \r\n'
+                               '- Amount/Total amount before/after return is '
+                               'calculate correctly',
+            'custom_preconds': 'New user, never purchase any product with '
+                               'pomelo before.',
+            'custom_steps': ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- Open Pomelo application\r\n'
+                            '- login/signup\r\n'
+                            '- choose product (2-3 items)\r\n'
+                            '- choose delivery to my address\r\n'
+                            '- choose cash on delivery\r\n'
+                            '- confirm order\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update backend processes\r\n'
+                            '- delivered to customer\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- customer create return\r\n'
+                            '- choose 1 out of (n) items that customer '
+                            'ordered\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update return status\r\n'
+                            '- return successfully  \r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- confirm returned credit/amount/cash back',
+            'custom_steps_separated': None,
+            'display_order': 1,
+            'estimate': None,
+            'estimate_forecast': None,
+            'id': 139,
+            'is_deleted': 0,
+            'milestone_id': None,
+            'priority_id': 2,
+            'refs': 'QAFE-71',
+            'section_id': 21,
+            'suite_id': 2,
+            'template_id': 1,
+            'title': 'New User',
+            'type_id': 7,
+            'updated_by': 1,
+            'updated_on': 1633063155},
+           {'created_by': 1,
+            'created_on': 1633059730,
+            'custom_automation_type': 0,
+            'custom_description': 'In order to release the product QA need to '
+                                  'process end to end flow to validate if the '
+                                  'main business feature are working '
+                                  'correctly.',
+            'custom_expected': '- Order successfully\r\n'
+                               '- Return successfully \r\n'
+                               '- Amount/Total amount before/after return is '
+                               'calculate correctly',
+            'custom_preconds': 'Membership, customer used to purchase any '
+                               'product with pomelo before.',
+            'custom_steps': ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- Open Pomelo application\r\n'
+                            '- login/signup\r\n'
+                            '- choose product (2-3 items)\r\n'
+                            '- choose delivery to my address\r\n'
+                            '- choose cash on delivery\r\n'
+                            '- confirm order\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update backend processes\r\n'
+                            '- delivered to customer\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- customer create return\r\n'
+                            '- choose 1 out of (n) items that customer '
+                            'ordered\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update return status\r\n'
+                            '- return successfully  \r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- confirm returned credit/amount/cash back',
+            'custom_steps_separated': None,
+            'display_order': 2,
+            'estimate': None,
+            'estimate_forecast': None,
+            'id': 146,
+            'is_deleted': 0,
+            'milestone_id': None,
+            'priority_id': 2,
+            'refs': 'QAFE-71',
+            'section_id': 21,
+            'suite_id': 2,
+            'template_id': 1,
+            'title': 'Membership',
+            'type_id': 7,
+            'updated_by': 1,
+            'updated_on': 1633063188},
+           {'created_by': 1,
+            'created_on': 1633060092,
+            'custom_automation_type': 0,
+            'custom_description': 'In order to release the product QA need to '
+                                  'process end to end flow to validate if the '
+                                  'main business feature are working '
+                                  'correctly.',
+            'custom_expected': '- Order successfully\r\n'
+                               '- Return successfully \r\n'
+                               '- Amount/Total amount before/after return is '
+                               'calculate correctly',
+            'custom_preconds': 'Pomelo employee, no matter they never or used '
+                               'to purchase any product with pomelo before.',
+            'custom_steps': ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- Open Pomelo application\r\n'
+                            '- login/signup\r\n'
+                            '- choose product (2-3 items)\r\n'
+                            '- choose delivery to my address\r\n'
+                            '- choose cash on delivery\r\n'
+                            '- confirm order\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update backend processes\r\n'
+                            '- delivered to customer\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- customer create return\r\n'
+                            '- choose 1 out of (n) items that customer '
+                            'ordered\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update return status\r\n'
+                            '- return successfully  \r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- confirm returned credit/amount/cash back',
+            'custom_steps_separated': None,
+            'display_order': 3,
+            'estimate': None,
+            'estimate_forecast': None,
+            'id': 153,
+            'is_deleted': 0,
+            'milestone_id': None,
+            'priority_id': 2,
+            'refs': 'QAFE-71',
+            'section_id': 21,
+            'suite_id': 2,
+            'template_id': 1,
+            'title': 'Pomelo employee',
+            'type_id': 7,
+            'updated_by': 1,
+            'updated_on': 1633063252},
+           {'created_by': 1,
+            'created_on': 1633059707,
+            'custom_automation_type': 0,
+            'custom_description': 'In order to release the product QA need to '
+                                  'process end to end flow to validate if the '
+                                  'main business feature are working '
+                                  'correctly.',
+            'custom_expected': '- Order successfully\r\n'
+                               '- Return successfully \r\n'
+                               '- Amount/Total amount before/after return is '
+                               'calculate correctly',
+            'custom_preconds': 'New user, never purchase any product with '
+                               'pomelo before.',
+            'custom_steps': ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- Open Pomelo application\r\n'
+                            '- login/signup\r\n'
+                            '- choose product (2-3 items)\r\n'
+                            '- choose delivery to my address\r\n'
+                            '- choose cash on delivery\r\n'
+                            '- confirm order\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update backend processes\r\n'
+                            '- delivered to customer\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- customer create return\r\n'
+                            '- choose 1 out of (n) items that customer '
+                            'ordered\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update return status\r\n'
+                            '- return successfully  \r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- confirm returned credit/amount/cash back',
+            'custom_steps_separated': None,
+            'display_order': 1,
+            'estimate': None,
+            'estimate_forecast': None,
+            'id': 140,
+            'is_deleted': 0,
+            'milestone_id': None,
+            'priority_id': 2,
+            'refs': 'QAFE-71',
+            'section_id': 22,
+            'suite_id': 2,
+            'template_id': 1,
+            'title': 'New User',
+            'type_id': 7,
+            'updated_by': 1,
+            'updated_on': 1633063345},
+           {'created_by': 1,
+            'created_on': 1633059732,
+            'custom_automation_type': 0,
+            'custom_description': 'In order to release the product QA need to '
+                                  'process end to end flow to validate if the '
+                                  'main business feature are working '
+                                  'correctly.',
+            'custom_expected': '- Order successfully\r\n'
+                               '- Return successfully \r\n'
+                               '- Amount/Total amount before/after return is '
+                               'calculate correctly',
+            'custom_preconds': 'Membership, customer used to purchase any '
+                               'product with pomelo before.',
+            'custom_steps': ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- Open Pomelo application\r\n'
+                            '- login/signup\r\n'
+                            '- choose product (2-3 items)\r\n'
+                            '- choose delivery to my address\r\n'
+                            '- choose cash on delivery\r\n'
+                            '- confirm order\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update backend processes\r\n'
+                            '- delivered to customer\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- customer create return\r\n'
+                            '- choose 1 out of (n) items that customer '
+                            'ordered\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update return status\r\n'
+                            '- return successfully  \r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- confirm returned credit/amount/cash back',
+            'custom_steps_separated': None,
+            'display_order': 2,
+            'estimate': None,
+            'estimate_forecast': None,
+            'id': 147,
+            'is_deleted': 0,
+            'milestone_id': None,
+            'priority_id': 2,
+            'refs': None,
+            'section_id': 22,
+            'suite_id': 2,
+            'template_id': 1,
+            'title': 'Membership',
+            'type_id': 7,
+            'updated_by': 1,
+            'updated_on': 1633063372},
+           {'created_by': 1,
+            'created_on': 1633060106,
+            'custom_automation_type': 0,
+            'custom_description': 'In order to release the product QA need to '
+                                  'process end to end flow to validate if the '
+                                  'main business feature are working '
+                                  'correctly.',
+            'custom_expected': '- Order successfully\r\n'
+                               '- Return successfully \r\n'
+                               '- Amount/Total amount before/after return is '
+                               'calculate correctly',
+            'custom_preconds': 'Pomelo employee, no matter they never or used '
+                               'to purchase any product with pomelo before.',
+            'custom_steps': ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- Open Pomelo application\r\n'
+                            '- login/signup\r\n'
+                            '- choose product (2-3 items)\r\n'
+                            '- choose delivery to my address\r\n'
+                            '- choose cash on delivery\r\n'
+                            '- confirm order\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update backend processes\r\n'
+                            '- delivered to customer\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- customer create return\r\n'
+                            '- choose 1 out of (n) items that customer '
+                            'ordered\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update return status\r\n'
+                            '- return successfully  \r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- confirm returned credit/amount/cash back',
+            'custom_steps_separated': None,
+            'display_order': 3,
+            'estimate': None,
+            'estimate_forecast': None,
+            'id': 158,
+            'is_deleted': 0,
+            'milestone_id': None,
+            'priority_id': 2,
+            'refs': 'QAFE-71',
+            'section_id': 22,
+            'suite_id': 2,
+            'template_id': 1,
+            'title': 'Pomelo employee',
+            'type_id': 7,
+            'updated_by': 1,
+            'updated_on': 1633063423},
+           {'created_by': 1,
+            'created_on': 1633059709,
+            'custom_automation_type': 0,
+            'custom_description': 'In order to release the product QA need to '
+                                  'process end to end flow to validate if the '
+                                  'main business feature are working '
+                                  'correctly.',
+            'custom_expected': '- Order successfully\r\n'
+                               '- Return successfully \r\n'
+                               '- Amount/Total amount before/after return is '
+                               'calculate correctly',
+            'custom_preconds': 'New user, never purchase any product with '
+                               'pomelo before.',
+            'custom_steps': ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- Open Pomelo application\r\n'
+                            '- login/signup\r\n'
+                            '- choose product (2-3 items)\r\n'
+                            '- choose delivery to my address\r\n'
+                            '- choose cash on delivery\r\n'
+                            '- confirm order\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update backend processes\r\n'
+                            '- delivered to customer\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- customer create return\r\n'
+                            '- choose 1 out of (n) items that customer '
+                            'ordered\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update return status\r\n'
+                            '- return successfully  \r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- confirm returned credit/amount/cash back',
+            'custom_steps_separated': None,
+            'display_order': 1,
+            'estimate': None,
+            'estimate_forecast': None,
+            'id': 141,
+            'is_deleted': 0,
+            'milestone_id': None,
+            'priority_id': 2,
+            'refs': 'QAFE-71',
+            'section_id': 23,
+            'suite_id': 2,
+            'template_id': 1,
+            'title': 'New User',
+            'type_id': 7,
+            'updated_by': 1,
+            'updated_on': 1633066311},
+           {'created_by': 1,
+            'created_on': 1633059735,
+            'custom_automation_type': 0,
+            'custom_description': 'In order to release the product QA need to '
+                                  'process end to end flow to validate if the '
+                                  'main business feature are working '
+                                  'correctly.',
+            'custom_expected': '- Order successfully\r\n'
+                               '- Return successfully \r\n'
+                               '- Amount/Total amount before/after return is '
+                               'calculate correctly',
+            'custom_preconds': 'Membership, customer used to purchase any '
+                               'product with pomelo before.',
+            'custom_steps': ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- Open Pomelo application\r\n'
+                            '- login/signup\r\n'
+                            '- choose product (2-3 items)\r\n'
+                            '- choose delivery to my address\r\n'
+                            '- choose cash on delivery\r\n'
+                            '- confirm order\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update backend processes\r\n'
+                            '- delivered to customer\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- customer create return\r\n'
+                            '- choose 1 out of (n) items that customer '
+                            'ordered\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update return status\r\n'
+                            '- return successfully  \r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- confirm returned credit/amount/cash back',
+            'custom_steps_separated': None,
+            'display_order': 2,
+            'estimate': None,
+            'estimate_forecast': None,
+            'id': 148,
+            'is_deleted': 0,
+            'milestone_id': None,
+            'priority_id': 2,
+            'refs': 'QAFE-71',
+            'section_id': 23,
+            'suite_id': 2,
+            'template_id': 1,
+            'title': 'Membership',
+            'type_id': 7,
+            'updated_by': 1,
+            'updated_on': 1633066346},
+           {'created_by': 1,
+            'created_on': 1633060103,
+            'custom_automation_type': 0,
+            'custom_description': 'In order to release the product QA need to '
+                                  'process end to end flow to validate if the '
+                                  'main business feature are working '
+                                  'correctly.',
+            'custom_expected': '- Order successfully\r\n'
+                               '- Return successfully \r\n'
+                               '- Amount/Total amount before/after return is '
+                               'calculate correctly',
+            'custom_preconds': 'Pomelo employee, no matter they never or used '
+                               'to purchase any product with pomelo before.',
+            'custom_steps': ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- Open Pomelo application\r\n'
+                            '- login/signup\r\n'
+                            '- choose product (2-3 items)\r\n'
+                            '- choose delivery to my address\r\n'
+                            '- choose cash on delivery\r\n'
+                            '- confirm order\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update backend processes\r\n'
+                            '- delivered to customer\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- customer create return\r\n'
+                            '- choose 1 out of (n) items that customer '
+                            'ordered\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update return status\r\n'
+                            '- return successfully  \r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- confirm returned credit/amount/cash back',
+            'custom_steps_separated': None,
+            'display_order': 3,
+            'estimate': None,
+            'estimate_forecast': None,
+            'id': 157,
+            'is_deleted': 0,
+            'milestone_id': None,
+            'priority_id': 2,
+            'refs': 'QAFE-71',
+            'section_id': 23,
+            'suite_id': 2,
+            'template_id': 1,
+            'title': 'Pomelo employee',
+            'type_id': 7,
+            'updated_by': 1,
+            'updated_on': 1633066381},
+           {'created_by': 1,
+            'created_on': 1633059711,
+            'custom_automation_type': 0,
+            'custom_description': 'In order to release the product QA need to '
+                                  'process end to end flow to validate if the '
+                                  'main business feature are working '
+                                  'correctly.',
+            'custom_expected': '- Order successfully\r\n'
+                               '- Return successfully \r\n'
+                               '- Amount/Total amount before/after return is '
+                               'calculate correctly',
+            'custom_preconds': 'New user, never purchase any product with '
+                               'pomelo before.',
+            'custom_steps': ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- Open Pomelo application\r\n'
+                            '- login/signup\r\n'
+                            '- choose product (2-3 items)\r\n'
+                            '- choose delivery to my address\r\n'
+                            '- choose cash on delivery\r\n'
+                            '- confirm order\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update backend processes\r\n'
+                            '- delivered to customer\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- customer create return\r\n'
+                            '- choose 1 out of (n) items that customer '
+                            'ordered\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update return status\r\n'
+                            '- return successfully  \r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- confirm returned credit/amount/cash back',
+            'custom_steps_separated': None,
+            'display_order': 1,
+            'estimate': None,
+            'estimate_forecast': None,
+            'id': 142,
+            'is_deleted': 0,
+            'milestone_id': None,
+            'priority_id': 2,
+            'refs': 'QAFE-71',
+            'section_id': 24,
+            'suite_id': 2,
+            'template_id': 1,
+            'title': 'New User',
+            'type_id': 7,
+            'updated_by': 1,
+            'updated_on': 1633066444},
+           {'created_by': 1,
+            'created_on': 1633059737,
+            'custom_automation_type': 0,
+            'custom_description': 'In order to release the product QA need to '
+                                  'process end to end flow to validate if the '
+                                  'main business feature are working '
+                                  'correctly.',
+            'custom_expected': '- Order successfully\r\n'
+                               '- Return successfully \r\n'
+                               '- Amount/Total amount before/after return is '
+                               'calculate correctly',
+            'custom_preconds': 'Membership, customer used to purchase any '
+                               'product with pomelo before.',
+            'custom_steps': ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- Open Pomelo application\r\n'
+                            '- login/signup\r\n'
+                            '- choose product (2-3 items)\r\n'
+                            '- choose delivery to my address\r\n'
+                            '- choose cash on delivery\r\n'
+                            '- confirm order\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update backend processes\r\n'
+                            '- delivered to customer\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- customer create return\r\n'
+                            '- choose 1 out of (n) items that customer '
+                            'ordered\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update return status\r\n'
+                            '- return successfully  \r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- confirm returned credit/amount/cash back',
+            'custom_steps_separated': None,
+            'display_order': 2,
+            'estimate': None,
+            'estimate_forecast': None,
+            'id': 149,
+            'is_deleted': 0,
+            'milestone_id': None,
+            'priority_id': 2,
+            'refs': 'QAFE-71',
+            'section_id': 24,
+            'suite_id': 2,
+            'template_id': 1,
+            'title': 'Membership',
+            'type_id': 7,
+            'updated_by': 1,
+            'updated_on': 1633066475},
+           {'created_by': 1,
+            'created_on': 1633060102,
+            'custom_automation_type': 0,
+            'custom_description': 'In order to release the product QA need to '
+                                  'process end to end flow to validate if the '
+                                  'main business feature are working '
+                                  'correctly.',
+            'custom_expected': '- Order successfully\r\n'
+                               '- Return successfully \r\n'
+                               '- Amount/Total amount before/after return is '
+                               'calculate correctly',
+            'custom_preconds': 'Pomelo employee, no matter they never or used '
+                               'to purchase any product with pomelo before.',
+            'custom_steps': ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- Open Pomelo application\r\n'
+                            '- login/signup\r\n'
+                            '- choose product (2-3 items)\r\n'
+                            '- choose delivery to my address\r\n'
+                            '- choose cash on delivery\r\n'
+                            '- confirm order\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update backend processes\r\n'
+                            '- delivered to customer\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- customer create return\r\n'
+                            '- choose 1 out of (n) items that customer '
+                            'ordered\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update return status\r\n'
+                            '- return successfully  \r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- confirm returned credit/amount/cash back',
+            'custom_steps_separated': None,
+            'display_order': 3,
+            'estimate': None,
+            'estimate_forecast': None,
+            'id': 156,
+            'is_deleted': 0,
+            'milestone_id': None,
+            'priority_id': 2,
+            'refs': 'QAFE-71',
+            'section_id': 24,
+            'suite_id': 2,
+            'template_id': 1,
+            'title': 'Pomelo employee',
+            'type_id': 7,
+            'updated_by': 1,
+            'updated_on': 1633066521},
+           {'created_by': 1,
+            'created_on': 1633059712,
+            'custom_automation_type': 0,
+            'custom_description': 'In order to release the product QA need to '
+                                  'process end to end flow to validate if the '
+                                  'main business feature are working '
+                                  'correctly.',
+            'custom_expected': '- Order successfully\r\n'
+                               '- Return successfully \r\n'
+                               '- Amount/Total amount before/after return is '
+                               'calculate correctly',
+            'custom_preconds': 'New user, never purchase any product with '
+                               'pomelo before.',
+            'custom_steps': ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- Open Pomelo application\r\n'
+                            '- login/signup\r\n'
+                            '- choose product (2-3 items)\r\n'
+                            '- choose delivery to my address\r\n'
+                            '- choose cash on delivery\r\n'
+                            '- confirm order\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update backend processes\r\n'
+                            '- delivered to customer\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- customer create return\r\n'
+                            '- choose 1 out of (n) items that customer '
+                            'ordered\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update return status\r\n'
+                            '- return successfully  \r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- confirm returned credit/amount/cash back',
+            'custom_steps_separated': None,
+            'display_order': 1,
+            'estimate': None,
+            'estimate_forecast': None,
+            'id': 143,
+            'is_deleted': 0,
+            'milestone_id': None,
+            'priority_id': 2,
+            'refs': 'QAFE-71',
+            'section_id': 25,
+            'suite_id': 2,
+            'template_id': 1,
+            'title': 'New User',
+            'type_id': 7,
+            'updated_by': 1,
+            'updated_on': 1633066597},
+           {'created_by': 1,
+            'created_on': 1633059739,
+            'custom_automation_type': 0,
+            'custom_description': 'In order to release the product QA need to '
+                                  'process end to end flow to validate if the '
+                                  'main business feature are working '
+                                  'correctly.',
+            'custom_expected': '- Order successfully\r\n'
+                               '- Return successfully \r\n'
+                               '- Amount/Total amount before/after return is '
+                               'calculate correctly',
+            'custom_preconds': 'Membership, customer used to purchase any '
+                               'product with pomelo before.',
+            'custom_steps': ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- Open Pomelo application\r\n'
+                            '- login/signup\r\n'
+                            '- choose product (2-3 items)\r\n'
+                            '- choose delivery to my address\r\n'
+                            '- choose cash on delivery\r\n'
+                            '- confirm order\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update backend processes\r\n'
+                            '- delivered to customer\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- customer create return\r\n'
+                            '- choose 1 out of (n) items that customer '
+                            'ordered\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update return status\r\n'
+                            '- return successfully  \r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- confirm returned credit/amount/cash back',
+            'custom_steps_separated': None,
+            'display_order': 2,
+            'estimate': None,
+            'estimate_forecast': None,
+            'id': 150,
+            'is_deleted': 0,
+            'milestone_id': None,
+            'priority_id': 2,
+            'refs': 'QAFE-71',
+            'section_id': 25,
+            'suite_id': 2,
+            'template_id': 1,
+            'title': 'Membership',
+            'type_id': 7,
+            'updated_by': 1,
+            'updated_on': 1633066621},
+           {'created_by': 1,
+            'created_on': 1633060101,
+            'custom_automation_type': 0,
+            'custom_description': 'In order to release the product QA need to '
+                                  'process end to end flow to validate if the '
+                                  'main business feature are working '
+                                  'correctly.',
+            'custom_expected': '- Order successfully\r\n'
+                               '- Return successfully \r\n'
+                               '- Amount/Total amount before/after return is '
+                               'calculate correctly',
+            'custom_preconds': 'Pomelo employee, no matter they never or used '
+                               'to purchase any product with pomelo before.',
+            'custom_steps': ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- Open Pomelo application\r\n'
+                            '- login/signup\r\n'
+                            '- choose product (2-3 items)\r\n'
+                            '- choose delivery to my address\r\n'
+                            '- choose cash on delivery\r\n'
+                            '- confirm order\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update backend processes\r\n'
+                            '- delivered to customer\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- customer create return\r\n'
+                            '- choose 1 out of (n) items that customer '
+                            'ordered\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update return status\r\n'
+                            '- return successfully  \r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- confirm returned credit/amount/cash back',
+            'custom_steps_separated': None,
+            'display_order': 3,
+            'estimate': None,
+            'estimate_forecast': None,
+            'id': 155,
+            'is_deleted': 0,
+            'milestone_id': None,
+            'priority_id': 2,
+            'refs': 'QAFE-71',
+            'section_id': 25,
+            'suite_id': 2,
+            'template_id': 1,
+            'title': 'Pomelo employee',
+            'type_id': 7,
+            'updated_by': 1,
+            'updated_on': 1633066653},
+           {'created_by': 1,
+            'created_on': 1633059715,
+            'custom_automation_type': 0,
+            'custom_description': 'In order to release the product QA need to '
+                                  'process end to end flow to validate if the '
+                                  'main business feature are working '
+                                  'correctly.',
+            'custom_expected': '- Order successfully\r\n'
+                               '- Return successfully \r\n'
+                               '- Amount/Total amount before/after return is '
+                               'calculate correctly',
+            'custom_preconds': 'New user, never purchase any product with '
+                               'pomelo before.',
+            'custom_steps': ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- Open Pomelo application\r\n'
+                            '- login/signup\r\n'
+                            '- choose product (2-3 items)\r\n'
+                            '- choose delivery to my address\r\n'
+                            '- choose cash on delivery\r\n'
+                            '- confirm order\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update backend processes\r\n'
+                            '- delivered to customer\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- customer create return\r\n'
+                            '- choose 1 out of (n) items that customer '
+                            'ordered\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update return status\r\n'
+                            '- return successfully  \r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- confirm returned credit/amount/cash back',
+            'custom_steps_separated': None,
+            'display_order': 1,
+            'estimate': None,
+            'estimate_forecast': None,
+            'id': 144,
+            'is_deleted': 0,
+            'milestone_id': None,
+            'priority_id': 2,
+            'refs': 'QAFE-71',
+            'section_id': 26,
+            'suite_id': 2,
+            'template_id': 1,
+            'title': 'New User',
+            'type_id': 7,
+            'updated_by': 1,
+            'updated_on': 1633066737},
+           {'created_by': 1,
+            'created_on': 1633059742,
+            'custom_automation_type': 0,
+            'custom_description': 'In order to release the product QA need to '
+                                  'process end to end flow to validate if the '
+                                  'main business feature are working '
+                                  'correctly.',
+            'custom_expected': '- Order successfully\r\n'
+                               '- Return successfully \r\n'
+                               '- Amount/Total amount before/after return is '
+                               'calculate correctly',
+            'custom_preconds': 'Membership, customer used to purchase any '
+                               'product with pomelo before.',
+            'custom_steps': ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- Open Pomelo application\r\n'
+                            '- login/signup\r\n'
+                            '- choose product (2-3 items)\r\n'
+                            '- choose delivery to my address\r\n'
+                            '- choose cash on delivery\r\n'
+                            '- confirm order\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update backend processes\r\n'
+                            '- delivered to customer\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- customer create return\r\n'
+                            '- choose 1 out of (n) items that customer '
+                            'ordered\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update return status\r\n'
+                            '- return successfully  \r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- confirm returned credit/amount/cash back',
+            'custom_steps_separated': None,
+            'display_order': 2,
+            'estimate': None,
+            'estimate_forecast': None,
+            'id': 151,
+            'is_deleted': 0,
+            'milestone_id': None,
+            'priority_id': 2,
+            'refs': 'QAFE-71',
+            'section_id': 26,
+            'suite_id': 2,
+            'template_id': 1,
+            'title': 'Membership',
+            'type_id': 7,
+            'updated_by': 1,
+            'updated_on': 1633066760},
+           {'created_by': 1,
+            'created_on': 1633060100,
+            'custom_automation_type': 0,
+            'custom_description': 'In order to release the product QA need to '
+                                  'process end to end flow to validate if the '
+                                  'main business feature are working '
+                                  'correctly.',
+            'custom_expected': '- Order successfully\r\n'
+                               '- Return successfully \r\n'
+                               '- Amount/Total amount before/after return is '
+                               'calculate correctly',
+            'custom_preconds': 'Pomelo employee, no matter they never or used '
+                               'to purchase any product with pomelo before.',
+            'custom_steps': ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- Open Pomelo application\r\n'
+                            '- login/signup\r\n'
+                            '- choose product (2-3 items)\r\n'
+                            '- choose delivery to my address\r\n'
+                            '- choose cash on delivery\r\n'
+                            '- confirm order\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update backend processes\r\n'
+                            '- delivered to customer\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- customer create return\r\n'
+                            '- choose 1 out of (n) items that customer '
+                            'ordered\r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: BACKEND ::\r\n'
+                            '\r\n'
+                            '- update return status\r\n'
+                            '- return successfully  \r\n'
+                            '\r\n'
+                            '==============================\r\n'
+                            '\r\n'
+                            ':: CLIENT ::\r\n'
+                            '\r\n'
+                            '- confirm returned credit/amount/cash back',
+            'custom_steps_separated': None,
+            'display_order': 3,
+            'estimate': None,
+            'estimate_forecast': None,
+            'id': 154,
+            'is_deleted': 0,
+            'milestone_id': None,
+            'priority_id': 2,
+            'refs': 'QAFE-71',
+            'section_id': 26,
+            'suite_id': 2,
+            'template_id': 1,
+            'title': 'Pomelo employee',
+            'type_id': 7,
+            'updated_by': 1,
+            'updated_on': 1633066785}],
+ 'limit': 250,
+ 'offset': 0,
+ 'size': 59}
